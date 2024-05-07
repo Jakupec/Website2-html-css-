@@ -1,0 +1,251 @@
+tr.parni td{background-color: darkcyan;}
+tr#redak:hover td{background-color: darkblue;}
+tr#redak:hover th{background-color: darkblue;}
+table#cjenik_usluga {border: 1px solid black;}
+
+table#cjenik_usluga th{
+    border: 1px solid black;
+}
+table#cjenik_usluga td {
+    border: 1px solid black;
+}
+
+.navigacija{
+    font-weight: bold;
+    color: black;
+}
+[alt="slika2"]{
+    background-color: white;
+}
+.podebljano{font-weight: bold;}
+.ukošeno{transform: skew(-20deg);}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightslategrey;
+}
+
+nav{
+    background-color: dimgray;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+}
+nav  ul{
+    float: right;
+    margin-right: 550px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    height: 80px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 26.5px 15px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background-color: silver;
+    transition: .5s;
+}
+
+
+
+ .pozicijaDesno{
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-right: 180px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+#pozicijaLijevo{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 180px;
+    border-radius: 150px;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+ 
+h2{
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+nav label{
+    background-color: dimgray;
+}
+
+nav ul li a {
+    background-color: dimgray;
+}
+
+nav > ul {
+    background-color: dimgray;
+}
+
+.pozadinasiva{
+    background-color: dimgray;
+}
+
+div pre figure div {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+img#galerija:hover{
+    transform: scale(1.2);
+} 
+
+img#galerija{
+    margin-left: 500px;
+    margin-bottom: 25px;
+}
+
+p#tekstGalerije{
+    width: 500px;
+    height: 80px;
+    float: right;
+    margin-right: 450px;
+    margin-top: 100px;
+    background-color: dimgray;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+figcaption ~ p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+pre + ul{
+    text-decoration: underline
+}
+
+input::placeholder{
+    background-color: white;
+}
+
+ul#ponudaTri li:last-child{
+    color: crimson;
+    font-weight: bold;
+}
+
+figcaption#modelKutije{
+    width: 460px;
+    height: 80px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+form#forma2{
+    width: 600px;
+    height: 600px;
+    padding: 100px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.figura{
+    background-color: dimgray;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 200px;
+    border-radius: 100px;
+}
+
+
+
+#pozadinaA{
+    display: contents;
+}
+
+#grid{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+ div#grid div{
+    border: rgb(0, 0, 0) 5px solid;
+    margin: 2px;
+ }
+
+ #prvi{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url(../dokumenti/slike/vineda.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ #drugi{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url(../dokumenti/slike/masaza.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ #treci{
+    background-image: url(../dokumenti/slike/dorucak.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ #cetvrti{
+    background-image: url(../dokumenti/slike/kupka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ #karta_lokacije{
+    position: relative;
+    left: 600px;
+ }
